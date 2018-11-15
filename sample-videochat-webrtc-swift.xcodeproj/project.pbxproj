@@ -90,7 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				FB88562D201F316300D97E6F /* sample-videochat-webrtc-swift */,
-				FB88562C201F316300D97E6F /* Products */,
 				499E58D2823EDEC8222ED453 /* Pods */,
 				405E4773FBADB0ECEDF9321B /* Frameworks */,
 			);
@@ -102,6 +101,7 @@
 				FB88562B201F316300D97E6F /* sample-videochat-webrtc-swift.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		FB88562D201F316300D97E6F /* sample-videochat-webrtc-swift */ = {
@@ -119,6 +119,7 @@
 				FB885635201F316300D97E6F /* Assets.xcassets */,
 				FB885637201F316300D97E6F /* LaunchScreen.storyboard */,
 				FB88563A201F316300D97E6F /* Info.plist */,
+				FB88562C201F316300D97E6F /* Products */,
 			);
 			path = "sample-videochat-webrtc-swift";
 			sourceTree = "<group>";

@@ -25,7 +25,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         // Set QuickBlox credentials (You must create application in admin.quickblox.com).
-        QBSettings.applicationID = kQBApplicationID;
+        QBSettings.applicationID = kQBApplicationID
         QBSettings.authKey = kQBAuthKey
         QBSettings.authSecret = kQBAuthSecret
         QBSettings.accountKey = kQBAccountKey

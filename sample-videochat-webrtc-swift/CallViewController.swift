@@ -33,7 +33,7 @@ class CallViewController: UIViewController, QBRTCClientDelegate {
         
         QBRTCClient.initializeRTC()
         QBRTCClient.instance().add(self)
-        
+
         cofigureVideo()
         configureAudio()
         
@@ -86,7 +86,6 @@ class CallViewController: UIViewController, QBRTCClientDelegate {
             } else {
                 options = options.union(AVAudioSessionCategoryOptions.allowBluetooth)
             }
-            
             configuration.categoryOptions = options
             configuration.mode = AVAudioSessionModeVideoChat
         }

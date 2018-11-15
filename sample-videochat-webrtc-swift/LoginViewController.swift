@@ -27,7 +27,6 @@ class LoginViewController: UIViewController {
         }
         
         precondition(users!.count > 1, "The Users.plist file should contain at least 2 and max 4 users with format [login:password]. Please go to https://admin.quickblox.com and create users in 'Users' module.")
-        
         precondition(users!.count <= 4, "Maximum of 4 sample users are recommended. Please remove other ones.")
     }
     
@@ -35,7 +34,6 @@ class LoginViewController: UIViewController {
         super.viewDidAppear(animated)
         self.loginBtn.isHidden = false
     }
-    
     //MARK: - Actions
     
     @IBAction func didPressLogin(_ sender: UIButton) {
